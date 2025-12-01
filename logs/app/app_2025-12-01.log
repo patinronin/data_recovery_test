@@ -1,0 +1,62 @@
+[2025-12-01 16:08:52,318] - app - INFO - Executing poblate_db script
+[2025-12-01 16:08:52,554] - app - INFO - Starting Pokemon data population
+[2025-12-01 16:08:52,554] - app - INFO - Fetching pokemons from 1 to 10
+[2025-12-01 16:08:52,554] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/1
+[2025-12-01 16:08:52,555] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/2
+[2025-12-01 16:08:52,555] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/3
+[2025-12-01 16:08:52,561] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/4
+[2025-12-01 16:08:52,561] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/5
+[2025-12-01 16:08:52,561] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/6
+[2025-12-01 16:08:52,561] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/7
+[2025-12-01 16:08:52,561] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/8
+[2025-12-01 16:08:52,562] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/9
+[2025-12-01 16:08:52,562] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/10
+[2025-12-01 16:08:52,782] - app - INFO - Creating MongoDB client for URI: mongodb://mongodb1:27017
+[2025-12-01 16:08:52,791] - app - INFO - Inserting 10 pokemons into poke_db.pokemons
+[2025-12-01 16:08:52,792] - app - INFO - Starting MongoDB session
+[2025-12-01 16:08:52,805] - app - INFO - Finished populating Pokemon data
+[2025-12-01 16:08:53,398] - app - INFO - Executing generate_results_file script
+[2025-12-01 16:08:53,592] - app - INFO - Fetching pokemons from 1 to 10
+[2025-12-01 16:08:53,593] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/1
+[2025-12-01 16:08:53,593] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/2
+[2025-12-01 16:08:53,594] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/3
+[2025-12-01 16:08:53,594] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/4
+[2025-12-01 16:08:53,594] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/5
+[2025-12-01 16:08:53,594] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/6
+[2025-12-01 16:08:53,595] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/7
+[2025-12-01 16:08:53,595] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/8
+[2025-12-01 16:08:53,595] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/9
+[2025-12-01 16:08:53,596] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/10
+[2025-12-01 16:08:53,815] - app - INFO - Creating MongoDB client for URI: mongodb://mongodb1:27017
+[2025-12-01 16:08:53,821] - app - INFO - Fetching all pokemons from the database
+[2025-12-01 16:08:53,829] - app - INFO - NDJSON successfully saved to /app/pokemons_2025-12-01.ndjson
+[2025-12-01 16:10:30,899] - app - INFO - Executing generate_results_file script
+[2025-12-01 16:10:31,158] - app - INFO - Fetching pokemons from 1 to 10
+[2025-12-01 16:10:31,158] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/1
+[2025-12-01 16:10:31,159] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/2
+[2025-12-01 16:10:31,160] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/3
+[2025-12-01 16:10:31,160] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/4
+[2025-12-01 16:10:31,160] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/5
+[2025-12-01 16:10:31,161] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/6
+[2025-12-01 16:10:31,161] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/7
+[2025-12-01 16:10:31,161] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/8
+[2025-12-01 16:10:31,161] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/9
+[2025-12-01 16:10:31,161] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/10
+[2025-12-01 16:10:31,371] - app - INFO - Creating MongoDB client for URI: mongodb://mongodb1:27017
+[2025-12-01 16:10:31,378] - app - INFO - Fetching all pokemons from the database
+[2025-12-01 16:10:31,385] - app - INFO - NDJSON successfully saved to /app/pokemons_2025-12-01.ndjson
+[2025-12-01 16:10:59,511] - app - INFO - Executing generate_results_file script
+[2025-12-01 16:10:59,735] - app - INFO - Fetching pokemons from 1 to 10
+[2025-12-01 16:10:59,735] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/1
+[2025-12-01 16:10:59,736] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/2
+[2025-12-01 16:10:59,736] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/3
+[2025-12-01 16:10:59,736] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/4
+[2025-12-01 16:10:59,736] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/5
+[2025-12-01 16:10:59,737] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/6
+[2025-12-01 16:10:59,737] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/7
+[2025-12-01 16:10:59,737] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/8
+[2025-12-01 16:10:59,737] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/9
+[2025-12-01 16:10:59,737] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/10
+[2025-12-01 16:10:59,972] - app - INFO - Creating MongoDB client for URI: mongodb://mongodb1:27017
+[2025-12-01 16:10:59,980] - app - INFO - Fetching all pokemons from the database
+[2025-12-01 16:10:59,990] - app - INFO - NDJSON successfully saved to /app/pokemons_2025-12-01.ndjson
