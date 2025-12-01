@@ -2,6 +2,33 @@
 
 ## Project Overview
 This project is designed to fetch, transform, and store Pokémon data from multiple sources (HTTP and MongoDB). It also provides functionality to generate a results file containing sorted Pokémon data.
+The api, db calls and write files all full async.
+The process is idempotent, if you consume the same date the result will be the same
+we are hasing the pokemon_id and the source field to obtain always the same hash and order.
+The results will be in a file pokemons_yyyy_mm_dd.ndjson
+The project also have a strong logging and retry policy.
+
+
+## Part 2:  Debugging Scenario – Pipeline Failure with No Logs.
+
+First, I would review the code. I could connect to the server via SSH and open a session using Remote SSH in Visual Studio Code, or review the code within the repository and examine the pipeline.
+
+I would review the log configuration to determine why it's failing.
+I could check if the files have execute permissions and if the user also has them; this is likely one of the issues when trying to create log files and the report.
+
+I would also try running it locally or directly on the server to attempt to replicate the error in real time.
+
+I could check if any of the data sources are failing. Depending on the test results, I could continue troubleshooting.
+
+A plan for adding observability:
+
+Add the complete stack trace of the error to the logs.
+
+Add unit tests and integration testing.
+
+Because it's a test, many things that wouldn't happen in a real project are omitted, such as a database without a password, creating a user other than root in the Dockerfile, and creating unit and integration tests and performance tests. Multiple logger instance creation would also be avoided and replaced with a global logger. In this case, the logger has a singleton pattern and always returns the same instance, preventing reconfiguration if one already exists.
+ 
+
 
 ## Features
 - Fetch Pokémon data from an HTTP API.

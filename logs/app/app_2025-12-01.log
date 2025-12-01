@@ -60,3 +60,19 @@
 [2025-12-01 16:10:59,972] - app - INFO - Creating MongoDB client for URI: mongodb://mongodb1:27017
 [2025-12-01 16:10:59,980] - app - INFO - Fetching all pokemons from the database
 [2025-12-01 16:10:59,990] - app - INFO - NDJSON successfully saved to /app/pokemons_2025-12-01.ndjson
+[2025-12-01 21:19:25,654] - app - INFO - Executing generate_results_file script
+[2025-12-01 21:19:25,878] - app - INFO - Fetching pokemons from 1 to 10
+[2025-12-01 21:19:25,879] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/1
+[2025-12-01 21:19:25,879] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/2
+[2025-12-01 21:19:25,880] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/3
+[2025-12-01 21:19:25,880] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/4
+[2025-12-01 21:19:25,880] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/5
+[2025-12-01 21:19:25,880] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/6
+[2025-12-01 21:19:25,880] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/7
+[2025-12-01 21:19:25,881] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/8
+[2025-12-01 21:19:25,881] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/9
+[2025-12-01 21:19:25,881] - app - INFO - Fetching Pokemon data from https://pokeapi.co/api/v2/pokemon/10
+[2025-12-01 21:19:26,120] - app - INFO - Creating MongoDB client for URI: mongodb://mongodb1:27017
+[2025-12-01 21:19:26,128] - app - INFO - Fetching all pokemons from the database
+[2025-12-01 21:19:56,133] - app - ERROR - Error fetching pokemons: mongodb1:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 692e065eb901c70003984559, topology_type: Unknown, servers: [<ServerDescription ('mongodb1', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('mongodb1:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[2025-12-01 21:19:56,139] - app - INFO - NDJSON successfully saved to /app/pokemons_2025-12-01.ndjson
